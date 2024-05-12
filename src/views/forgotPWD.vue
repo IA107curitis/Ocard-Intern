@@ -14,7 +14,7 @@
       <label for="Email" class="relative">
         <p class="text-[13px]/[14.3px] text-[#8F959E]">Email Address</p>
         <input
-          class="border-b border-solid w-[100%] py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium mb-5"
+          class="border-b border-solid w-[100%] py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium mb-5 outline-0"
         />
       </label>
       <div

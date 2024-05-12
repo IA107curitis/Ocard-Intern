@@ -10,31 +10,33 @@
     <form class="w-[335px]">
       <label for="Username" class="relative">
         <p class="text-[13px]/[14.3px] text-[#8F959E]">Username</p>
-        <input
-          class="border-b border-solid w-[100%] py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium mb-5"
-        />
-        <span class="absolute inset-y-0 right-0 flex items-end mr-1"
-          ><IconCheck></IconCheck>
-        </span>
+        <div class="border-b border-solid w-[100%] flex mb-5">
+          <input
+            class="py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium outline-0 w-[85%]"
+          />
+          <span class="w-[15%] flex justify-end"><IconCheck></IconCheck></span>
+        </div>
       </label>
       <label for="Password" class="relative">
         <p class="text-[13px]/[14.3px] text-[#8F959E]">Password</p>
-        <input
-          class="border-b border-solid w-[100%] py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium mb-5"
-        />
-        <span
-          class="text-[11px]/[12.1px] text-[#34C559] font-Inter font-normal absolute inset-y-0 right-0 flex items-end justify-center mr-1 mb-1"
-          >Strong</span
-        >
+        <div class="border-b border-solid w-[100%] flex mb-5">
+          <input
+            class="py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium outline-0 w-[85%]"
+          />
+          <span
+            class="text-[11px]/[12.1px] text-[#34C559] font-Inter font-normal flex items-center justify-end w-[15%]"
+            >Strong</span
+          >
+        </div>
       </label>
       <label for="Email" class="relative">
         <p class="text-[13px]/[14.3px] text-[#8F959E]">Email Address</p>
-        <input
-          class="border-b border-solid w-[100%] py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium mb-5"
-        />
-        <span class="absolute inset-y-0 right-0 flex items-end mr-1">
-          <IconCheck></IconCheck>
-        </span>
+        <div class="border-b border-solid w-[100%] flex mb-5">
+          <input
+            class="py-2 text-[15px]/[16.5px] text-[#1D1E20] font-Inter font-medium outline-0 w-[85%]"
+          />
+          <span class="w-[15%] flex justify-end"><IconCheck></IconCheck></span>
+        </div>
       </label>
 
       <label class="inline-flex items-center w-[100%] justify-between mt-5">
@@ -44,7 +46,7 @@
         </span>
         <input type="checkbox" value="" class="sr-only peer" checked />
         <div
-          class="relative w-9 h-5 bg-gray-200 peer-focus:ring-4 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#34C759]"
+          class="relative w-9 h-5 bg-gray-200 peer-focus:ring-4 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#34C759] hover:cursor-pointer"
         ></div>
       </label>
       <div class="absolute inset-x-0 bottom-0 max-w-[375px] mx-auto">

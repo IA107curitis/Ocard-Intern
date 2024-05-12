@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[45px] h-[45px] rounded-full bg-[#F5F6FA] flex justify-center items-center"
+    class="w-[45px] h-[45px] rounded-full bg-[#F5F6FA] flex justify-center items-center hover:cursor-pointer"
   >
     <svg
       width="25"
